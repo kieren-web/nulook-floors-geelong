@@ -6,7 +6,7 @@ export const faqs: FAQ[] = [
     id: "home-cost-geelong",
     question: "How much does epoxy flooring cost in Geelong?",
     answer:
-      "Residential garage epoxy flooring in Geelong typically starts from $25–$40 per square metre installed, depending on floor size, surface preparation required, and your chosen colour. NuLook Floors Geelong provides free on-site quotes and our quoted price never changes - if we underquote, we cover the difference. Call 0402 185 502 for a free quote.",
+      "Residential epoxy flooring in Geelong is priced at $90–$100 per square metre installed. A single garage typically comes to $1,600–$2,000, a double garage $3,200–$4,000, and a patio or alfresco area $1,800–$3,000. Commercial floors are priced on inspection. Our quoted price never changes - if we underquote, we cover the difference. Call 0402 185 502 for a free quote.",
     page: "home",
   },
   {

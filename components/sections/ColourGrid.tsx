@@ -54,7 +54,7 @@ export function ColourGrid({ colours, totalCount, preview = false }: ColourGridP
             href="/colours"
             className="text-orange font-semibold hover:underline"
           >
-            View All {totalCount ?? colours.length} Colours &rarr;
+            View All {totalCount ?? colours.length}{" "}Colours &rarr;
           </Link>
         </div>
       )}
