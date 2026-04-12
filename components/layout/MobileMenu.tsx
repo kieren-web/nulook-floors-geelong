@@ -70,7 +70,7 @@ export function MobileMenu() {
             </div>
 
             {/* Links */}
-            <nav className="flex-1 overflow-y-auto py-4 px-4">
+            <nav className="flex-1 min-h-0 overflow-y-auto py-4 px-4">
               {navItems.map((item) => (
                 <Link
                   key={item.href}

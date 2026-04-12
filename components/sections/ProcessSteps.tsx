@@ -63,15 +63,15 @@ export function ProcessSteps() {
         </div>
 
         {/* Mobile: vertical with left line */}
-        <div className="lg:hidden mt-12 relative pl-8">
-          {/* Vertical orange line */}
-          <div className="absolute left-[22px] top-4 bottom-4 w-px bg-gradient-to-b from-orange/60 via-orange/40 to-orange/10" />
+        <div className="lg:hidden mt-12 relative">
+          {/* Vertical orange line - centred on the 40px circles (left-5 = 20px) */}
+          <div className="absolute left-5 top-5 bottom-5 w-px bg-gradient-to-b from-orange/60 via-orange/40 to-orange/10" />
 
           <div className="space-y-8">
             {steps.map((step) => (
-              <div key={step.number} className="relative flex gap-5">
-                {/* Number bubble */}
-                <div className="absolute -left-8 w-10 h-10 rounded-full bg-[#0a0a0a] border-2 border-orange flex items-center justify-center shrink-0 shadow-[0_0_16px_rgba(232,100,12,0.25)]">
+              <div key={step.number} className="flex items-start gap-4">
+                {/* Number bubble - in normal flow, never overlaps text */}
+                <div className="w-10 h-10 rounded-full bg-[#0a0a0a] border-2 border-orange flex items-center justify-center shrink-0 relative z-10 shadow-[0_0_16px_rgba(232,100,12,0.25)]">
                   <span className="text-orange font-bold text-xs">{step.number}</span>
                 </div>
                 <div className="pt-1">
