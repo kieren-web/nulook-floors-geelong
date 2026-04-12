@@ -66,13 +66,6 @@ const galleryImages: GalleryImage[] = [
     category: "workshop",
   },
   {
-    id: "7",
-    src: "/images/gallery/outdoor-alfresco-inside.jpg",
-    alt: "Alfresco viewed from inside with white epoxy floor",
-    caption: "Alfresco - Outdoor Living",
-    category: "patio",
-  },
-  {
     id: "8",
     src: "/images/gallery/residential-stairs.jpg",
     alt: "Residential staircase landing with grey flake epoxy",
