@@ -183,7 +183,7 @@ export default function EpoxyVsTilesPage() {
         <p>
           Every garage is different - size, concrete condition, how it gets used. The best way to know exactly what your floor needs is a free on-site assessment.{" "}
           <Link href="/contact">Book yours here</Link> or call Michael &amp; Gabe on{" "}
-          <a href="tel:+61466385069">0466 385 069</a>. We'll give you an honest recommendation and a fixed written quote.
+          <a href="tel:+61402185502">0402 185 502</a>. We'll give you an honest recommendation and a fixed written quote.
         </p>
       </BlogLayout>
     </>

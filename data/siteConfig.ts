@@ -1,9 +1,9 @@
-export const siteConfig = {
+﻿export const siteConfig = {
   businessName: "NuLook Floors Geelong",
   tagline: "Geelong's Premium Epoxy Flooring Specialists",
-  phone: "0466385069",
-  phoneFormatted: "0466 385 069",
-  phoneTel: "tel:+61466385069",
+  phone: "0402185502",
+  phoneFormatted: "0402 185 502",
+  phoneTel: "tel:+61402185502",
   email: "michael@nulookfloors.com.au",
   address: {
     suburb: "Geelong",

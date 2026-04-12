@@ -163,7 +163,7 @@ export default function HowLongLastsPage() {
           <p>
             <strong>NuLook Floors Geelong answers yes to all of the above.</strong> We diamond grind every floor, apply a full 5-layer system, and back every residential installation with a 5-year warranty.{" "}
             <Link href="/contact">Book a free on-site quote</Link> or call{" "}
-            <a href="tel:+61466385069">0466 385 069</a>.
+            <a href="tel:+61402185502">0402 185 502</a>.
           </p>
         </div>
 

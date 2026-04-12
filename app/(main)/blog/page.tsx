@@ -104,7 +104,7 @@ export default function BlogPage() {
         heading="Have a Question Not Covered Here?"
         subtext="Call Michael & Gabe directly - we're happy to answer any questions about your specific floor or project."
         primaryCta={{ label: "Get a Free Quote", href: "/contact" }}
-        secondaryCta={{ label: "Call 0466 385 069", href: "tel:+61466385069" }}
+        secondaryCta={{ label: "Call 0402 185 502", href: "tel:+61402185502" }}
       />
     </>
   );

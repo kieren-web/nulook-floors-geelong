@@ -95,10 +95,10 @@ export function MultiStepSurvey() {
         });
         setSubmitted(true);
       } else {
-        setSubmitError("Something went wrong. Please call us on 0466 385 069.");
+        setSubmitError("Something went wrong. Please call us on 0402 185 502.");
       }
     } catch {
-      setSubmitError("Something went wrong. Please call us on 0466 385 069.");
+      setSubmitError("Something went wrong. Please call us on 0402 185 502.");
     } finally {
       setSubmitting(false);
     }

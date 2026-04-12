@@ -1,4 +1,4 @@
-import { siteConfig } from "@/data/siteConfig";
+﻿import { siteConfig } from "@/data/siteConfig";
 
 export function localBusinessSchema() {
   return {
@@ -7,7 +7,7 @@ export function localBusinessSchema() {
     name: siteConfig.businessName,
     description:
       "Premium epoxy flooring for garages and commercial spaces in Geelong, Victoria. Part of the NuLook Floors franchise network.",
-    telephone: "+61466385069",
+    telephone: "+61402185502",
     email: siteConfig.email,
     url: siteConfig.siteUrl,
     address: {

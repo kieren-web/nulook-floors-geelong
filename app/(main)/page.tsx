@@ -22,7 +22,7 @@ import { MapPin } from "lucide-react";
 export const metadata: Metadata = buildMetadata({
   title: "Epoxy Flooring Geelong | NuLook Floors - Free Quote",
   description:
-    "Premium epoxy flooring in Geelong. Residential garages, commercial floors & workshops. 5-year warranty, 13 colour options, local installers. Call 0466 385 069 for a free quote.",
+    "Premium epoxy flooring in Geelong. Residential garages, commercial floors & workshops. 5-year warranty, 13 colour options, local installers. Call 0402 185 502 for a free quote.",
   path: "/",
 });
 

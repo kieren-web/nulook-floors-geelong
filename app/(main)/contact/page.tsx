@@ -10,7 +10,7 @@ import Link from "next/link";
 export const metadata: Metadata = buildMetadata({
   title: "Free Epoxy Flooring Quote Geelong | NuLook Floors",
   description:
-    "Get a free epoxy flooring quote in Geelong. Call 0466 385 069 or fill in the form. NuLook Floors responds within 24 hours and provides fixed written quotes. No obligation.",
+    "Get a free epoxy flooring quote in Geelong. Call 0402 185 502 or fill in the form. NuLook Floors responds within 24 hours and provides fixed written quotes. No obligation.",
   path: "/contact",
 });
 

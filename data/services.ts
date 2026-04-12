@@ -21,7 +21,7 @@ export const services: Service[] = [
     ],
     metaTitle: "Garage Epoxy Flooring Geelong | NuLook Floors",
     metaDescription:
-      "Professional garage epoxy flooring Geelong. Diamond-ground prep, 13 colours, anti-slip finish, 5-year warranty. Free on-site quote - call 0466 385 069.",
+      "Professional garage epoxy flooring Geelong. Diamond-ground prep, 13 colours, anti-slip finish, 5-year warranty. Free on-site quote - call 0402 185 502.",
   },
   {
     id: "commercial-industrial",

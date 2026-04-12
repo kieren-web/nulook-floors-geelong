@@ -101,7 +101,7 @@ export default function CostGuidePage() {
         <div className="callout">
           <p>
             <strong>NuLook Floors Geelong pricing:</strong> We charge a fixed written price per job - if we underquote, we absorb the difference. Call{" "}
-            <a href="tel:+61466385069">0466 385 069</a> or{" "}
+            <a href="tel:+61402185502">0402 185 502</a> or{" "}
             <Link href="/contact">request a free on-site quote</Link>.
           </p>
         </div>

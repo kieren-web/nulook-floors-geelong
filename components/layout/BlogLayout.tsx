@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { CTABanner } from "@/components/ui/CTABanner";
 import { siteConfig } from "@/data/siteConfig";
@@ -65,7 +65,7 @@ export function BlogLayout({ children, title, label = "GEELONG EPOXY GUIDE", dat
         heading="Ready to Transform Your Floor?"
         subtext="Get a free, no-obligation quote from Geelong's epoxy flooring specialists."
         primaryCta={{ label: "Get a Free Quote", href: "/contact" }}
-        secondaryCta={{ label: "Call 0466 385 069", href: siteConfig.phoneTel }}
+        secondaryCta={{ label: "Call 0402 185 502", href: siteConfig.phoneTel }}
       />
     </>
   );
