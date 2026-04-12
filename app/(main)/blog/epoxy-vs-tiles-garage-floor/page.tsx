@@ -67,7 +67,7 @@ export default function EpoxyVsTilesPage() {
           <tbody>
             <tr>
               <td><strong>Installed cost</strong></td>
-              <td>$25–$40/m² (professional)</td>
+              <td>$90–$100/m² (professional)</td>
               <td>$15–$30/m² (DIY or installed)</td>
             </tr>
             <tr>
@@ -107,7 +107,7 @@ export default function EpoxyVsTilesPage() {
             </tr>
             <tr>
               <td><strong>Installation</strong></td>
-              <td>Professional (1 day)</td>
+              <td>Professional (2–3 days)</td>
               <td>DIY possible</td>
             </tr>
             <tr>
@@ -137,7 +137,7 @@ export default function EpoxyVsTilesPage() {
 
         <h3>Cost per year of use</h3>
         <p>
-          A double garage epoxy floor installed by NuLook at $2,000–$2,600 and lasting 15 years works out to roughly <strong>$130–$175 per year</strong>. A tile floor at $1,500–$2,000 lasting 7 years works out to $215–$285 per year — and you still need to rip them up and replace them.
+          A double garage epoxy floor installed by NuLook costs $3,200–$4,000 and lasts 15+ years. A tile floor at $1,500–$2,000 typically lasts 7 years — meaning over the same 15-year period you'd be replacing them at least twice, spending $3,000–$4,000 in total anyway. Except you still have joints, fading, and two rounds of disruption. <strong>The long-term cost is comparable, the result is not.</strong>
         </p>
 
         <h3>Resale and presentation</h3>

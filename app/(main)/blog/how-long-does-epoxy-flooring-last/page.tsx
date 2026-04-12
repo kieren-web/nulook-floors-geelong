@@ -31,7 +31,7 @@ const faqItems: FAQ[] = [
     id: "lifespan-faq-3",
     question: "Does epoxy flooring need to be recoated?",
     answer:
-      "A properly installed professional epoxy floor should not need recoating within its warranty period. In high-traffic commercial environments, a maintenance topcoat may be applied after 7–10 years to refresh the surface. Residential floors rarely need this.",
+      "A properly installed professional epoxy floor should not need recoating within its warranty period. In high-traffic commercial environments, a maintenance topcoat may be applied after 5–10 years depending on use and traffic levels. Residential floors rarely need this.",
     page: "home",
   },
   {
@@ -90,7 +90,7 @@ export default function HowLongLastsPage() {
         </table>
 
         <p>
-          The NuLook system uses a full multi-coat process with a UV-stable topcoat — which is why we back it with a <strong>5-year residential warranty</strong> and expect floors to perform well beyond that.
+          The NuLook system uses a full multi-coat process with a UV-stable topcoat — which is why we back it with a <strong>5-year residential warranty</strong> and expect floors to perform well beyond the warranty period. For commercial floors in heavy-use environments, a maintenance topcoat is typically recommended every 5–10 years depending on traffic.
         </p>
 
         <h2>The #1 Factor: Surface Preparation</h2>

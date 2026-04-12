@@ -8,7 +8,7 @@ import type { FAQ } from "@/types";
 export const metadata: Metadata = buildMetadata({
   title: "How Much Does Epoxy Flooring Cost in Geelong? (2025 Guide)",
   description:
-    "Honest 2025 pricing guide for epoxy flooring in Geelong. Residential garages from $25–$40/m², commercial from $30–$55/m². What affects price and how to get a fair quote.",
+    "Honest 2025 pricing guide for epoxy flooring in Geelong. Residential garages priced at $90–$100/m² installed. What affects price and how to get a fair quote.",
   path: "/blog/how-much-does-epoxy-flooring-cost-geelong",
 });
 
@@ -17,7 +17,7 @@ const faqItems: FAQ[] = [
     id: "cost-faq-1",
     question: "How much does epoxy flooring cost per square metre in Geelong?",
     answer:
-      "Residential garage epoxy flooring in Geelong typically costs $25–$40 per square metre installed. Commercial and industrial epoxy systems range from $30–$55/m² depending on specification. These prices include diamond grinding preparation, primer, epoxy coat, flake blend, and UV-stable topcoat.",
+      "Residential epoxy flooring in Geelong is priced at $90–$100 per square metre installed. This includes diamond grinding preparation, primer, epoxy coat, colour flake blend, and UV-stable topcoat. Commercial and large-scale industrial floors are priced on inspection due to the variation in size and specification.",
     page: "home",
   },
   {
@@ -31,7 +31,7 @@ const faqItems: FAQ[] = [
     id: "cost-faq-3",
     question: "Is epoxy flooring worth it for a residential garage in Geelong?",
     answer:
-      "Yes — for most Geelong homeowners, epoxy flooring delivers strong value. A typical double garage costs $1,500–$3,000 installed and lasts 10–20 years with minimal maintenance. Compared to replacing the floor, it's one of the best-value home improvements available.",
+      "Yes — for most Geelong homeowners, epoxy flooring delivers strong value. A typical double garage costs $3,200–$4,000 installed and lasts well over a decade with minimal maintenance. Compared to replacing the floor or dealing with bare concrete, it's one of the best-value home improvements available.",
     page: "home",
   },
 ];
@@ -49,7 +49,7 @@ export default function CostGuidePage() {
       >
         <h2>The Short Answer: What Epoxy Flooring Costs in Geelong</h2>
         <p>
-          For most Geelong homeowners and businesses, epoxy flooring falls into these ranges in 2025:
+          For most Geelong homeowners, residential epoxy flooring is priced at <strong>$90–$100 per square metre installed</strong>. Here's how that works out across typical floor sizes:
         </p>
 
         <table>
@@ -57,34 +57,39 @@ export default function CostGuidePage() {
             <tr>
               <th>Floor Type</th>
               <th>Typical Size</th>
-              <th>Price Range (installed)</th>
+              <th>Approximate Installed Price</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Single garage</td>
-              <td>~35–40m²</td>
-              <td>$875 – $1,600</td>
+              <td>~18–20m²</td>
+              <td>$1,600 – $2,000</td>
             </tr>
             <tr>
               <td>Double garage</td>
-              <td>~55–65m²</td>
-              <td>$1,375 – $2,600</td>
+              <td>~36–40m²</td>
+              <td>$3,200 – $4,000</td>
             </tr>
             <tr>
-              <td>Triple garage / workshop</td>
-              <td>~80–100m²</td>
-              <td>$2,000 – $4,000</td>
-            </tr>
-            <tr>
-              <td>Commercial warehouse</td>
-              <td>200m²+</td>
-              <td>$6,000 – $11,000+</td>
+              <td>Triple garage / large workshop</td>
+              <td>~54–60m²</td>
+              <td>$4,900 – $6,000</td>
             </tr>
             <tr>
               <td>Patio / alfresco</td>
-              <td>~20–40m²</td>
-              <td>$700 – $1,600</td>
+              <td>~20–30m²</td>
+              <td>$1,800 – $3,000</td>
+            </tr>
+            <tr>
+              <td>Shed / workshop</td>
+              <td>~40–60m²</td>
+              <td>$3,600 – $6,000</td>
+            </tr>
+            <tr>
+              <td>Commercial / warehouse</td>
+              <td>250m²+</td>
+              <td>Priced on inspection</td>
             </tr>
           </tbody>
         </table>
@@ -137,9 +142,8 @@ export default function CostGuidePage() {
         <h3>6. Add-Ons</h3>
         <ul>
           <li><strong>Anti-slip grit</strong> — often included as standard (it should be)</li>
-          <li><strong>Line marking</strong> — common in commercial jobs, adds $2–$5/m</li>
-          <li><strong>Coved skirting</strong> — a curved edge where floor meets wall for hygiene; common in food-grade environments</li>
-          <li><strong>Extra crack repair</strong> — depends on severity</li>
+          <li><strong>Coved skirting</strong> — a curved edge where floor meets wall for hygiene; common in food-grade and commercial environments</li>
+          <li><strong>Extra crack repair</strong> — depends on severity and will be noted in your quote</li>
         </ul>
 
         <h2>Why Some Quotes Are Much Cheaper</h2>
@@ -169,7 +173,7 @@ export default function CostGuidePage() {
           <tbody>
             <tr>
               <td>Epoxy (professional)</td>
-              <td>$25 – $55</td>
+              <td>$90 – $100</td>
               <td>10–20 years</td>
               <td>Very low</td>
             </tr>
@@ -184,12 +188,6 @@ export default function CostGuidePage() {
               <td>$10 – $20</td>
               <td>2–5 years</td>
               <td>High (needs resealing)</td>
-            </tr>
-            <tr>
-              <td>Polished concrete</td>
-              <td>$50 – $100</td>
-              <td>20+ years</td>
-              <td>Low</td>
             </tr>
             <tr>
               <td>Bare concrete</td>
@@ -208,7 +206,7 @@ export default function CostGuidePage() {
           <li>Approximate floor size (or we can measure)</li>
           <li>Current floor condition — any cracks, oil stains, previous coatings?</li>
           <li>Preferred colour or finish</li>
-          <li>Any add-ons you want (anti-slip, line marking, etc.)</li>
+          <li>Any specific requirements (anti-slip, coved skirting, etc.)</li>
         </ol>
 
         <blockquote>
@@ -225,7 +223,8 @@ export default function CostGuidePage() {
 
         <h3>How long does installation take?</h3>
         <p>
-          Most residential garage floors are completed in one day. Larger commercial floors may take two days. You can walk on the floor within 24 hours and drive on it within 72 hours.
+          Most residential garage floors take 2–3 days to complete. Commercial jobs vary based on the size and specification of the project — your installer will give you a timeline at the quote stage.
+          You can walk on the floor within 24 hours and drive on it within 72 hours.
         </p>
 
         <h3>Is there a warranty?</h3>
