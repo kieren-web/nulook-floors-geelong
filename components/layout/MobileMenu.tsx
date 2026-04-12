@@ -47,10 +47,14 @@ export function MobileMenu() {
             className="absolute inset-0 bg-black/60 backdrop-blur-sm"
             onClick={close}
           />
-          {/* Panel */}
-          <div className="absolute right-0 top-0 h-full w-full max-w-sm bg-background border-l border-border flex flex-col">
-            {/* Top */}
-            <div className="flex items-center justify-between px-4 h-20 border-b border-border">
+
+          {/* Panel — h-dvh works on iOS Safari where h-full fails */}
+          <div
+            className="absolute right-0 top-0 w-full max-w-sm bg-background border-l border-border flex flex-col"
+            style={{ height: "100dvh" }}
+          >
+            {/* Top — shrink-0 keeps it fixed height */}
+            <div className="shrink-0 flex items-center justify-between px-4 h-20 border-b border-border">
               <div className="flex flex-col leading-tight">
                 <span className="text-xl font-bold text-white tracking-tight">
                   NuLook Floors
@@ -69,8 +73,8 @@ export function MobileMenu() {
               </button>
             </div>
 
-            {/* Links */}
-            <nav className="flex-1 min-h-0 overflow-y-auto py-4 px-4">
+            {/* Links — takes all remaining space, scrollable */}
+            <nav className="flex-1 min-h-0 overflow-y-auto overscroll-contain py-4 px-4">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
@@ -87,8 +91,8 @@ export function MobileMenu() {
               ))}
             </nav>
 
-            {/* Bottom */}
-            <div className="p-4 border-t border-border space-y-3">
+            {/* Bottom — shrink-0 keeps it fixed height */}
+            <div className="shrink-0 p-4 border-t border-border space-y-3">
               <a
                 href={siteConfig.phoneTel}
                 className="flex items-center gap-2 text-white font-medium"
