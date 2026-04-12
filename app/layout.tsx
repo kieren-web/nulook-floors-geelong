@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   title: "NuLook Floors Geelong | Premium Epoxy Flooring",
   description:
     "Geelong's premium epoxy flooring specialists. Residential garage floors, commercial and industrial flooring. 5-year warranty, 13 colour options. Free quote.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/images/nulook-logo.jpg",
+  },
 };
 
 export default function RootLayout({
