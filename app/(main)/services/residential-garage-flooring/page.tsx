@@ -93,7 +93,7 @@ export default function ResidentialGarageFlooringPage() {
           subtext="All 13 NuLook colours are UV-stable and professionally tested. View samples during your free quote appointment."
         />
         <div className="mt-12">
-          <ColourGrid colours={colours.slice(0, 6)} preview={true} />
+          <ColourGrid colours={colours.slice(0, 6)} totalCount={colours.length} preview={true} />
         </div>
       </section>
 
