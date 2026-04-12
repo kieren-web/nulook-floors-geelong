@@ -6,7 +6,7 @@ import Link from "next/link";
 import type { FAQ } from "@/types";
 
 export const metadata: Metadata = buildMetadata({
-  title: "How Much Does Epoxy Flooring Cost in Geelong? (2025 Guide)",
+  title: "How Much Does Epoxy Flooring Cost in Geelong? (2026 Guide)",
   description:
     "Honest 2025 pricing guide for epoxy flooring in Geelong. Residential garages priced at $90–$100/m² installed. What affects price and how to get a fair quote.",
   path: "/blog/how-much-does-epoxy-flooring-cost-geelong",
@@ -41,9 +41,9 @@ export default function CostGuidePage() {
     <>
       <FAQSchema faqs={faqItems} />
       <BlogLayout
-        title="How Much Does Epoxy Flooring Cost in Geelong? (2025 Guide)"
+        title="How Much Does Epoxy Flooring Cost in Geelong? (2026 Guide)"
         label="PRICING GUIDE"
-        date="April 2025"
+        date="April 2026"
         readTime="5 min read"
         intro="If you've been quoted wildly different prices for epoxy flooring in Geelong, you're not alone. This guide breaks down exactly what drives the cost - so you know what a fair quote looks like before you commit."
       >

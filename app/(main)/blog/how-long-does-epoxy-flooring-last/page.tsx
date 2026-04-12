@@ -50,7 +50,7 @@ export default function HowLongLastsPage() {
       <BlogLayout
         title="How Long Does Epoxy Flooring Last? (Honest Answer for Geelong)"
         label="EPOXY GUIDE"
-        date="April 2025"
+        date="April 2026"
         readTime="5 min read"
         intro="You'll see claims ranging from '3 years' to 'a lifetime' when researching epoxy flooring. The honest answer is: it depends almost entirely on how it was installed. Here's what actually determines how long your floor will last."
       >

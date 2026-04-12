@@ -15,11 +15,11 @@ export const metadata: Metadata = buildMetadata({
 const posts = [
   {
     slug: "how-much-does-epoxy-flooring-cost-geelong",
-    title: "How Much Does Epoxy Flooring Cost in Geelong? (2025 Guide)",
+    title: "How Much Does Epoxy Flooring Cost in Geelong? (2026 Guide)",
     excerpt:
-      "Residential garages from $25–$40/m², commercial from $30–$55/m². What affects price, what to watch for in cheap quotes, and how to get a fair deal.",
+      "Residential epoxy flooring in Geelong is priced at $90–$100/m² installed. What affects price, what to watch for in cheap quotes, and how to get a fair deal.",
     label: "Pricing Guide",
-    date: "April 2025",
+    date: "April 2026",
     readTime: "5 min read",
   },
   {
@@ -28,7 +28,7 @@ const posts = [
     excerpt:
       "An honest side-by-side comparison of professional epoxy flooring vs interlocking garage tiles - cost, durability, maintenance, and long-term value.",
     label: "Buyer's Guide",
-    date: "April 2025",
+    date: "April 2026",
     readTime: "6 min read",
   },
   {
@@ -37,7 +37,7 @@ const posts = [
     excerpt:
       "The difference between a floor that lasts 20 years and one that peels in three comes down to one thing. Here's what to ask before you commit.",
     label: "Epoxy Guide",
-    date: "April 2025",
+    date: "April 2026",
     readTime: "5 min read",
   },
 ];

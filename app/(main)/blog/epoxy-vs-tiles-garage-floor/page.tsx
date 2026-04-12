@@ -43,7 +43,7 @@ export default function EpoxyVsTilesPage() {
       <BlogLayout
         title="Epoxy vs Garage Floor Tiles: Which is Better for Geelong Garages?"
         label="BUYER'S GUIDE"
-        date="April 2025"
+        date="April 2026"
         readTime="6 min read"
         intro="Garage floor tiles look great in YouTube videos and hardware store displays. But how do they actually compare to professional epoxy flooring when you're living with the result every day? Here's the honest comparison."
       >
