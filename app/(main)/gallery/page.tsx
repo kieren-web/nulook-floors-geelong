@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { GalleryGrid } from "@/components/sections/GalleryGrid";
 import { BeforeAfterSlider } from "@/components/ui/BeforeAfterSlider";
@@ -10,7 +10,7 @@ import Link from "next/link";
 export const metadata: Metadata = buildMetadata({
   title: "Epoxy Flooring Gallery Geelong | NuLook Floors",
   description:
-    "View our epoxy flooring gallery — residential garages, commercial floors, and workshops across Geelong. Real results from NuLook Floors Geelong.",
+    "View our epoxy flooring gallery - residential garages, commercial floors, and workshops across Geelong. Real results from NuLook Floors Geelong.",
   path: "/gallery",
 });
 
@@ -18,13 +18,13 @@ const galleryImages: GalleryImage[] = [
   {
     id: "g1",
     src: "/images/gallery/garage-classic-cars.jpg",
-    alt: "Epoxy flake garage floor Geelong — classic car showroom finish",
+    alt: "Epoxy flake garage floor Geelong - classic car showroom finish",
     category: "garage",
   },
   {
     id: "g2",
     src: "/images/gallery/residential-puppy.jpg",
-    alt: "Residential garage epoxy flooring Geelong — light grey flake finish",
+    alt: "Residential garage epoxy flooring Geelong - light grey flake finish",
     category: "garage",
   },
   {
@@ -42,31 +42,31 @@ const galleryImages: GalleryImage[] = [
   {
     id: "g5",
     src: "/images/gallery/commercial-warehouse.jpg",
-    alt: "Commercial warehouse epoxy flooring Geelong — heavy duty finish",
+    alt: "Commercial warehouse epoxy flooring Geelong - heavy duty finish",
     category: "commercial",
   },
   {
     id: "g6",
     src: "/images/gallery/commercial-industrial.jpg",
-    alt: "Industrial epoxy floor coating Geelong — chemical resistant",
+    alt: "Industrial epoxy floor coating Geelong - chemical resistant",
     category: "commercial",
   },
   {
     id: "g7",
     src: "/images/gallery/commercial-shed.jpg",
-    alt: "Workshop shed epoxy floor Geelong — anti-slip finish",
+    alt: "Workshop shed epoxy floor Geelong - anti-slip finish",
     category: "workshop",
   },
   {
     id: "g8",
     src: "/images/gallery/outdoor-alfresco-inside.jpg",
-    alt: "Outdoor alfresco epoxy floor coating Geelong — interior view",
+    alt: "Outdoor alfresco epoxy floor coating Geelong - interior view",
     category: "patio",
   },
   {
     id: "g9",
     src: "/images/gallery/outdoor-alfresco-outside.jpg",
-    alt: "Outdoor patio epoxy coating Geelong — exterior alfresco finish",
+    alt: "Outdoor patio epoxy coating Geelong - exterior alfresco finish",
     category: "patio",
   },
 ];
@@ -110,9 +110,9 @@ export default function GalleryPage() {
           <BeforeAfterSlider
             beforeSrc="/images/gallery/geelong-before.jpg"
             afterSrc="/images/gallery/geelong-after.jpg"
-            beforeAlt="Bare concrete garage floor before epoxy coating — Geelong"
-            afterAlt="Finished epoxy garage floor after NuLook installation — Geelong"
-            label="Residential Garage — Geelong"
+            beforeAlt="Bare concrete garage floor before epoxy coating - Geelong"
+            afterAlt="Finished epoxy garage floor after NuLook installation - Geelong"
+            label="Residential Garage - Geelong"
           />
         </div>
       </section>

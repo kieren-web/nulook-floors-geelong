@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import { Phone } from "lucide-react";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
@@ -25,7 +25,7 @@ const processSteps = [
   {
     number: "01",
     title: "Free Site Visit",
-    description: "We come to you, assess the floor, and hand you a fixed written quote — no surprises.",
+    description: "We come to you, assess the floor, and hand you a fixed written quote - no surprises.",
   },
   {
     number: "02",
@@ -90,7 +90,7 @@ export default function LandingPage() {
           <SectionHeading
             label="OUR WORK"
             heading="Real Floors by NuLook Geelong"
-            subtext="Every floor is installed by Michael &amp; Gabe — no subcontractors, no shortcuts."
+            subtext="Every floor is installed by Michael &amp; Gabe - no subcontractors, no shortcuts."
             align="center"
           />
         </ScrollReveal>
@@ -137,7 +137,7 @@ export default function LandingPage() {
               Ready to Transform Your Floor?
             </h2>
             <p className="mt-4 text-muted text-lg">
-              Call Michael &amp; Gabe directly — or scroll back up and fill in the quick form.
+              Call Michael &amp; Gabe directly - or scroll back up and fill in the quick form.
             </p>
             <a
               href={siteConfig.phoneTel}

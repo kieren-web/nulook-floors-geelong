@@ -1,4 +1,4 @@
-import { SectionHeading } from "@/components/ui/SectionHeading";
+﻿import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const steps = [
   {
@@ -39,7 +39,7 @@ export function ProcessSteps() {
         <SectionHeading
           label="HOW IT WORKS"
           heading="The NuLook Installation Process"
-          subtext="Every floor follows the same proven 5-step system — refined over 25 years and 26,000+ installs."
+          subtext="Every floor follows the same proven 5-step system - refined over 25 years and 26,000+ installs."
           align="center"
         />
 

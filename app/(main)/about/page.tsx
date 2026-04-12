@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { StatsGrid } from "@/components/ui/StatsGrid";
@@ -10,7 +10,7 @@ import Link from "next/link";
 export const metadata: Metadata = buildMetadata({
   title: "About NuLook Floors Geelong | Local Epoxy Specialists",
   description:
-    "Meet Michael & Gabe — NuLook Floors Geelong. Local epoxy specialists backed by 25+ years NuLook experience and 26,000+ floors completed nationally. Serving Greater Geelong.",
+    "Meet Michael & Gabe - NuLook Floors Geelong. Local epoxy specialists backed by 25+ years NuLook experience and 26,000+ floors completed nationally. Serving Greater Geelong.",
   path: "/about",
 });
 
@@ -23,7 +23,7 @@ const differenceCards = [
   {
     Icon: Award,
     title: "Best Garage on The Block",
-    text: "NuLook Floors was recognised on Channel 9's The Block — a testament to the premium finish and quality that defines every NuLook installation.",
+    text: "NuLook Floors was recognised on Channel 9's The Block - a testament to the premium finish and quality that defines every NuLook installation.",
   },
   {
     Icon: CheckCircle,
@@ -63,7 +63,7 @@ export default function AboutPage() {
         />
         <div className="mt-6 space-y-4 text-muted text-lg leading-relaxed">
           <p>
-            NuLook Floors Geelong is owned and operated by Michael and Gabe —
+            NuLook Floors Geelong is owned and operated by Michael and Gabe -
             two locals who know the Geelong region inside out. From residential
             garages in Newtown to commercial warehouses in Corio, we bring
             hands-on expertise to every project.
@@ -76,7 +76,7 @@ export default function AboutPage() {
             premium materials of Australia&apos;s leading epoxy flooring group.
           </p>
           <p>
-            We believe in honest, fixed-price quoting — if we underquote, we
+            We believe in honest, fixed-price quoting - if we underquote, we
             honour our price. No surprises, no hidden costs. Just premium
             results delivered by people who care about getting it right.
           </p>

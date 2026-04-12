@@ -1,4 +1,4 @@
-import { Colour } from "@/types";
+﻿import { Colour } from "@/types";
 
 // NOTE: Official NuLook colour names to be confirmed by Michael/Gabe.
 // Numbers match the NuLook national colour chart (Colour 1–13).
@@ -91,7 +91,7 @@ export const colours: Colour[] = [
     name: "Colour 11",
     hex: "#404040",
     imagePath: "/images/colours/colour-11.jpg",
-    description: "Black, white and grey flake blend — darker tone.",
+    description: "Black, white and grey flake blend - darker tone.",
     popular: true,
     category: "neutral",
   },
@@ -108,7 +108,7 @@ export const colours: Colour[] = [
     name: "Colour 13",
     hex: "#282828",
     imagePath: "/images/colours/colour-13.jpg",
-    description: "Black and silver flake blend — darkest option.",
+    description: "Black and silver flake blend - darkest option.",
     popular: true,
     category: "neutral",
   },

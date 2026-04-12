@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SuburbPage } from "@/components/sections/SuburbPage";
 
@@ -14,7 +14,7 @@ export default function Page() {
     <SuburbPage
       suburb="Surf Coast"
       slug="surf-coast"
-      description="NuLook Floors Geelong services the Surf Coast for premium residential and commercial epoxy flooring. From Torquay holiday home garages to Anglesea workshops — we deliver the same NuLook quality finish and 5-year warranty across the entire Surf Coast."
+      description="NuLook Floors Geelong services the Surf Coast for premium residential and commercial epoxy flooring. From Torquay holiday home garages to Anglesea workshops - we deliver the same NuLook quality finish and 5-year warranty across the entire Surf Coast."
       nearbySuburbs={["Torquay", "Jan Juc", "Anglesea", "Aireys Inlet", "Lorne", "Winchelsea"]}
     />
   );

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
@@ -29,7 +29,7 @@ export default function RootLayout({
       <body className="bg-background text-white font-sans antialiased">
         {children}
       </body>
-      {/* GA4 — replace G-XXXXXXXXXX with real Measurement ID once created */}
+      {/* GA4 - replace G-XXXXXXXXXX with real Measurement ID once created */}
       {process.env.NEXT_PUBLIC_GA_ID && (
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
       )}

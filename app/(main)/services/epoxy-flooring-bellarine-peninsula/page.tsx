@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SuburbPage } from "@/components/sections/SuburbPage";
 
@@ -14,7 +14,7 @@ export default function Page() {
     <SuburbPage
       suburb="Bellarine Peninsula"
       slug="bellarine-peninsula"
-      description="NuLook Floors Geelong services the Bellarine Peninsula for premium residential and commercial epoxy flooring. From Ocean Grove garages to Drysdale workshops — we bring the same quality finish and 5-year warranty to every job on the Peninsula."
+      description="NuLook Floors Geelong services the Bellarine Peninsula for premium residential and commercial epoxy flooring. From Ocean Grove garages to Drysdale workshops - we bring the same quality finish and 5-year warranty to every job on the Peninsula."
       nearbySuburbs={["Ocean Grove", "Drysdale", "Queenscliff", "Barwon Heads", "Leopold", "Portarlington"]}
     />
   );

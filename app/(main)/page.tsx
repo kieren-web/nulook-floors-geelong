@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { StatsGrid } from "@/components/ui/StatsGrid";
@@ -20,7 +20,7 @@ import { siteConfig } from "@/data/siteConfig";
 import { MapPin } from "lucide-react";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Epoxy Flooring Geelong | NuLook Floors — Free Quote",
+  title: "Epoxy Flooring Geelong | NuLook Floors - Free Quote",
   description:
     "Premium epoxy flooring in Geelong. Residential garages, commercial floors & workshops. 5-year warranty, 13 colour options, local installers. Call 0466 385 069 for a free quote.",
   path: "/",
@@ -37,19 +37,19 @@ export default function HomePage() {
       {/* ── Hero ─────────────────────────────────────────────────── */}
       <HeroSection />
 
-      {/* ── Stats — very dark with orange glow ───────────────────── */}
+      {/* ── Stats - very dark with orange glow ───────────────────── */}
       <ScrollReveal>
         <StatsGrid />
       </ScrollReveal>
 
-      {/* ── Services — base background ───────────────────────────── */}
+      {/* ── Services - base background ───────────────────────────── */}
       <section className="py-20 px-4 bg-background">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
             <SectionHeading
               label="WHAT WE DO"
               heading="Epoxy Flooring Services in Geelong"
-              subtext="From residential garages to large-scale commercial facilities — NuLook Floors Geelong delivers premium results backed by the NuLook network."
+              subtext="From residential garages to large-scale commercial facilities - NuLook Floors Geelong delivers premium results backed by the NuLook network."
             />
           </ScrollReveal>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -77,7 +77,7 @@ export default function HomePage() {
               <div className="text-center md:px-8">
                 <p className="text-orange text-xs font-semibold tracking-widest uppercase mb-2">Surface Prep</p>
                 <p className="text-white font-semibold text-lg">Diamond-Ground Every Time</p>
-                <p className="text-muted text-sm mt-1 leading-relaxed">No shortcuts — full diamond grind for a permanent bond.</p>
+                <p className="text-muted text-sm mt-1 leading-relaxed">No shortcuts - full diamond grind for a permanent bond.</p>
               </div>
               <div className="text-center md:px-8">
                 <p className="text-orange text-xs font-semibold tracking-widest uppercase mb-2">The System</p>
@@ -87,19 +87,19 @@ export default function HomePage() {
               <div className="text-center md:px-8">
                 <p className="text-orange text-xs font-semibold tracking-widest uppercase mb-2">Your Quote</p>
                 <p className="text-white font-semibold text-lg">Fixed Written Price</p>
-                <p className="text-muted text-sm mt-1 leading-relaxed">The quote never changes — even if we underquote.</p>
+                <p className="text-muted text-sm mt-1 leading-relaxed">The quote never changes - even if we underquote.</p>
               </div>
             </div>
           </div>
         </section>
       </ScrollReveal>
 
-      {/* ── Process — dark section with orange connector ──────────── */}
+      {/* ── Process - dark section with orange connector ──────────── */}
       <ScrollReveal threshold={0.05}>
         <ProcessSteps />
       </ScrollReveal>
 
-      {/* ── Testimonials — slightly lighter dark ─────────────────── */}
+      {/* ── Testimonials - slightly lighter dark ─────────────────── */}
       <section className="py-20 px-4 bg-[#111]">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
@@ -118,7 +118,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Colours — base background ────────────────────────────── */}
+      {/* ── Colours - base background ────────────────────────────── */}
       <section className="py-20 px-4 bg-background">
         <div className="max-w-7xl mx-auto">
           <ScrollReveal>
@@ -136,7 +136,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── FAQ — dark section ───────────────────────────────────── */}
+      {/* ── FAQ - dark section ───────────────────────────────────── */}
       <section className="py-20 px-4 bg-[#0f0f0f]">
         <div className="max-w-3xl mx-auto">
           <ScrollReveal>
@@ -181,7 +181,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── CTA — photo background ───────────────────────────────── */}
+      {/* ── CTA - photo background ───────────────────────────────── */}
       <ScrollReveal threshold={0.05}>
         <CTABanner
           heading="Ready to Transform Your Floor?"

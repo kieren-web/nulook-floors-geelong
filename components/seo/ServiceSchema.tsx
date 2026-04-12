@@ -1,4 +1,4 @@
-import { siteConfig } from "@/data/siteConfig";
+﻿import { siteConfig } from "@/data/siteConfig";
 
 interface ServiceSchemaProps {
   name: string;
@@ -26,7 +26,7 @@ export function ServiceSchema({ name, description, url }: ServiceSchemaProps) {
     serviceType: "Epoxy Flooring",
     offers: {
       "@type": "Offer",
-      description: "Free on-site quote. Fixed written price — we honour our quotes.",
+      description: "Free on-site quote. Fixed written price - we honour our quotes.",
       priceSpecification: {
         "@type": "PriceSpecification",
         priceCurrency: "AUD",

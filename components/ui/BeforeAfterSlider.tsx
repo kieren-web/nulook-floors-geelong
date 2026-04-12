@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useRef, useCallback } from "react";
 import Image from "next/image";
@@ -52,7 +52,7 @@ export function BeforeAfterSlider({
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
       >
-        {/* After (base layer — full width) */}
+        {/* After (base layer - full width) */}
         <div className="absolute inset-0">
           <Image src={afterSrc} alt={afterAlt} fill className="object-cover" />
           <span className="absolute bottom-3 right-3 bg-orange text-white text-xs font-bold px-2 py-1 rounded">

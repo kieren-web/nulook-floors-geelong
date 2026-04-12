@@ -1,4 +1,4 @@
-import { FAQ } from "@/types";
+﻿import { FAQ } from "@/types";
 
 export const faqs: FAQ[] = [
   // ─── Home / General ───────────────────────────────────────────────────────
@@ -6,14 +6,14 @@ export const faqs: FAQ[] = [
     id: "home-cost-geelong",
     question: "How much does epoxy flooring cost in Geelong?",
     answer:
-      "Residential garage epoxy flooring in Geelong typically starts from $25–$40 per square metre installed, depending on floor size, surface preparation required, and your chosen colour. NuLook Floors Geelong provides free on-site quotes and our quoted price never changes — if we underquote, we cover the difference. Call 0466 385 069 for a free quote.",
+      "Residential garage epoxy flooring in Geelong typically starts from $25–$40 per square metre installed, depending on floor size, surface preparation required, and your chosen colour. NuLook Floors Geelong provides free on-site quotes and our quoted price never changes - if we underquote, we cover the difference. Call 0466 385 069 for a free quote.",
     page: "home",
   },
   {
     id: "home-service-areas",
     question: "Do you service Geelong East, Geelong West and surrounding suburbs?",
     answer:
-      "Yes — NuLook Floors Geelong services the full Greater Geelong area including Geelong East, Geelong West, Newtown, Belmont, Highton, Waurn Ponds, Torquay, Ocean Grove, Leopold, Lara, Corio, Norlane, and more. Not sure if we cover your suburb? Just call or send us a message.",
+      "Yes - NuLook Floors Geelong services the full Greater Geelong area including Geelong East, Geelong West, Newtown, Belmont, Highton, Waurn Ponds, Torquay, Ocean Grove, Leopold, Lara, Corio, Norlane, and more. Not sure if we cover your suburb? Just call or send us a message.",
     page: "home",
   },
   {
@@ -34,7 +34,7 @@ export const faqs: FAQ[] = [
     id: "cost-of-epoxy-geelong",
     question: "How much does epoxy flooring cost in Geelong?",
     answer:
-      "Pricing depends on the size of the area, surface preparation required, and your chosen finish. We provide a fixed written quote upfront — and if we underquote, we honour our price. No surprises at the end. Contact us for a free, no-obligation quote.",
+      "Pricing depends on the size of the area, surface preparation required, and your chosen finish. We provide a fixed written quote upfront - and if we underquote, we honour our price. No surprises at the end. Contact us for a free, no-obligation quote.",
     page: "home",
   },
   // ─── Residential ──────────────────────────────────────────────────────────
@@ -42,7 +42,7 @@ export const faqs: FAQ[] = [
     id: "residential-is-it-slippery",
     question: "Is epoxy flooring slippery when wet?",
     answer:
-      "Standard epoxy can be slippery when wet. We offer anti-slip additives — a fine aggregate broadcast into the topcoat — that significantly increase traction without affecting the appearance. This is recommended for all residential garage floors and is included in our standard install.",
+      "Standard epoxy can be slippery when wet. We offer anti-slip additives - a fine aggregate broadcast into the topcoat - that significantly increase traction without affecting the appearance. This is recommended for all residential garage floors and is included in our standard install.",
     page: "residential",
   },
   {
@@ -56,14 +56,14 @@ export const faqs: FAQ[] = [
     id: "residential-preparation",
     question: "Do I need to prepare the garage before you arrive?",
     answer:
-      "Please remove vehicles, furniture, and stored items from the garage floor area before our arrival. We handle all surface grinding and preparation. If you have oil stains, let us know when you book — we'll treat them as part of the prep process.",
+      "Please remove vehicles, furniture, and stored items from the garage floor area before our arrival. We handle all surface grinding and preparation. If you have oil stains, let us know when you book - we'll treat them as part of the prep process.",
     page: "residential",
   },
   {
     id: "residential-how-compare-concrete",
     question: "How does epoxy compare to plain concrete?",
     answer:
-      "Plain concrete is porous, stains easily, generates dust, and degrades over time. Epoxy creates a seamless, non-porous surface that resists oil, chemicals, and heavy traffic — while dramatically improving the appearance of your garage. It's easier to clean, longer lasting, and adds real value to your property.",
+      "Plain concrete is porous, stains easily, generates dust, and degrades over time. Epoxy creates a seamless, non-porous surface that resists oil, chemicals, and heavy traffic - while dramatically improving the appearance of your garage. It's easier to clean, longer lasting, and adds real value to your property.",
     page: "residential",
   },
   // ─── Commercial ───────────────────────────────────────────────────────────
@@ -100,7 +100,7 @@ export const faqs: FAQ[] = [
     id: "landing-free-quote",
     question: "Is the quote really free with no obligation?",
     answer:
-      "100% free, no obligation. We'll visit your property, assess the floor, discuss colour options, and provide a fixed written quote. We honour our quotes — if we underquote, we cover the difference. No surprises.",
+      "100% free, no obligation. We'll visit your property, assess the floor, discuss colour options, and provide a fixed written quote. We honour our quotes - if we underquote, we cover the difference. No surprises.",
     page: "landing",
   },
   {

@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import { Shield, Award, Clock } from "lucide-react";
 import { siteConfig } from "@/data/siteConfig";
 import { SectionLabel } from "@/components/ui/SectionLabel";
@@ -6,7 +6,7 @@ import { MultiStepSurvey } from "./MultiStepSurvey";
 
 const trustBadges = [
   { icon: Shield, text: "5-Year Residential Warranty" },
-  { icon: Award, text: "Best Garage — The Block" },
+  { icon: Award, text: "Best Garage - The Block" },
   { icon: Clock, text: "On Time, Every Time" },
 ];
 
@@ -41,7 +41,7 @@ export function LandingHero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 py-24 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left column */}
         <div>
-          <SectionLabel>Free Quote — Geelong &amp; Surrounds</SectionLabel>
+          <SectionLabel>Free Quote - Geelong &amp; Surrounds</SectionLabel>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
             Geelong&apos;s Garage
             <br />
@@ -49,7 +49,7 @@ export function LandingHero() {
           </h1>
           <p className="mt-6 text-muted text-lg leading-relaxed max-w-lg">
             Transform your garage, workshop, or commercial floor with a premium
-            NuLook epoxy coating. Installed by Michael &amp; Gabe — local,
+            NuLook epoxy coating. Installed by Michael &amp; Gabe - local,
             professional, backed by 25+ years of NuLook expertise.
           </p>
 
@@ -78,7 +78,7 @@ export function LandingHero() {
           </div>
         </div>
 
-        {/* Right column — survey */}
+        {/* Right column - survey */}
         <div className="bg-[#1a1a1a]/90 backdrop-blur-sm border border-border rounded-xl p-6 md:p-8 shadow-2xl">
           <div className="mb-6">
             <h2 className="text-xl font-bold text-white">Get Your Free Quote</h2>

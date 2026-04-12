@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ColourGrid } from "@/components/sections/ColourGrid";
@@ -57,7 +57,7 @@ export default function ColoursPage() {
 
       <CTABanner
         heading="Found Your Colour?"
-        subtext="Get a free quote and we'll bring samples to your property. No obligation — just great advice."
+        subtext="Get a free quote and we'll bring samples to your property. No obligation - just great advice."
         primaryCta={{ label: "Get a Free Quote", href: "/contact" }}
         secondaryCta={{ label: "View Our Work", href: "/gallery" }}
       />

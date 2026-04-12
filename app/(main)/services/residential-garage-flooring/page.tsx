@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ProcessSteps } from "@/components/sections/ProcessSteps";
@@ -126,7 +126,7 @@ export default function ResidentialGarageFlooringPage() {
 
       <CTABanner
         heading="Get a Free Garage Floor Quote"
-        subtext="We'll visit your property, assess the floor, discuss colour options, and provide a fixed written quote — completely free."
+        subtext="We'll visit your property, assess the floor, discuss colour options, and provide a fixed written quote - completely free."
         primaryCta={{ label: "Get a Free Quote", href: "/contact" }}
         secondaryCta={{ label: "View Colours", href: "/colours" }}
       />

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { BlogLayout } from "@/components/layout/BlogLayout";
 import { FAQSchema } from "@/components/seo/FAQSchema";
@@ -8,7 +8,7 @@ import type { FAQ } from "@/types";
 export const metadata: Metadata = buildMetadata({
   title: "How Long Does Epoxy Flooring Last? (Honest Answer for Geelong)",
   description:
-    "How long epoxy flooring really lasts — and what makes the difference between 3 years and 20 years. What to ask your installer before you commit.",
+    "How long epoxy flooring really lasts - and what makes the difference between 3 years and 20 years. What to ask your installer before you commit.",
   path: "/blog/how-long-does-epoxy-flooring-last",
 });
 
@@ -17,7 +17,7 @@ const faqItems: FAQ[] = [
     id: "lifespan-faq-1",
     question: "How long does epoxy flooring last in a residential garage?",
     answer:
-      "A professionally installed epoxy floor in a residential garage typically lasts 10–20 years. The most important factor is surface preparation — floors prepared with diamond grinding and properly primed will outlast floors where this step was skipped by a wide margin.",
+      "A professionally installed epoxy floor in a residential garage typically lasts 10–20 years. The most important factor is surface preparation - floors prepared with diamond grinding and properly primed will outlast floors where this step was skipped by a wide margin.",
     page: "home",
   },
   {
@@ -90,22 +90,22 @@ export default function HowLongLastsPage() {
         </table>
 
         <p>
-          The NuLook system uses a full multi-coat process with a UV-stable topcoat — which is why we back it with a <strong>5-year residential warranty</strong> and expect floors to perform well beyond the warranty period. For commercial floors in heavy-use environments, a maintenance topcoat is typically recommended every 5–10 years depending on traffic.
+          The NuLook system uses a full multi-coat process with a UV-stable topcoat - which is why we back it with a <strong>5-year residential warranty</strong> and expect floors to perform well beyond the warranty period. For commercial floors in heavy-use environments, a maintenance topcoat is typically recommended every 5–10 years depending on traffic.
         </p>
 
         <h2>The #1 Factor: Surface Preparation</h2>
         <p>
-          No other factor matters more than what happens before the first coat goes down. Epoxy adheres to concrete through a mechanical bond — meaning the concrete surface needs to be opened up so the epoxy can penetrate and grip.
+          No other factor matters more than what happens before the first coat goes down. Epoxy adheres to concrete through a mechanical bond - meaning the concrete surface needs to be opened up so the epoxy can penetrate and grip.
         </p>
         <p>
           The only way to properly achieve this is <strong>diamond grinding</strong>: using industrial diamond-tipped grinding discs to remove the top layer of the concrete surface, exposing fresh aggregate and creating a profile for the epoxy to bond to.
         </p>
         <p>
-          Cheaper alternatives — acid etching, shot blasting, or simply cleaning the floor — don't achieve the same result. A floor prepared this way will begin to delaminate (peel away from the concrete) within years, sometimes months, regardless of how good the epoxy product is.
+          Cheaper alternatives - acid etching, shot blasting, or simply cleaning the floor - don't achieve the same result. A floor prepared this way will begin to delaminate (peel away from the concrete) within years, sometimes months, regardless of how good the epoxy product is.
         </p>
 
         <blockquote>
-          Every NuLook Floors Geelong installation begins with diamond grinding. It's non-negotiable — it's what makes the floor last.
+          Every NuLook Floors Geelong installation begins with diamond grinding. It's non-negotiable - it's what makes the floor last.
         </blockquote>
 
         <h2>Other Factors That Affect Lifespan</h2>
@@ -117,12 +117,12 @@ export default function HowLongLastsPage() {
 
         <h3>Slab moisture</h3>
         <p>
-          Concrete naturally contains moisture, and epoxy doesn't bond well to wet concrete. A properly installed floor includes a moisture-tolerant primer that manages this — but if moisture levels are exceptionally high (common in older Geelong homes with no underslab membrane), your installer should flag this before starting.
+          Concrete naturally contains moisture, and epoxy doesn't bond well to wet concrete. A properly installed floor includes a moisture-tolerant primer that manages this - but if moisture levels are exceptionally high (common in older Geelong homes with no underslab membrane), your installer should flag this before starting.
         </p>
 
         <h3>Traffic and use</h3>
         <p>
-          A residential garage seeing one or two cars daily will outlast a commercial workshop floor with forklift traffic. Commercial environments need heavier-grade systems specified to the actual load — a residential-grade system installed in a warehouse won't hold up.
+          A residential garage seeing one or two cars daily will outlast a commercial workshop floor with forklift traffic. Commercial environments need heavier-grade systems specified to the actual load - a residential-grade system installed in a warehouse won't hold up.
         </p>
 
         <h3>Maintenance habits</h3>
@@ -142,7 +142,7 @@ export default function HowLongLastsPage() {
         </p>
         <ul>
           <li><strong>Loss of gloss:</strong> Normal after many years, but early gloss loss can indicate a poor topcoat</li>
-          <li><strong>Delamination or bubbling:</strong> Almost always a preparation issue — the coating is separating from the concrete</li>
+          <li><strong>Delamination or bubbling:</strong> Almost always a preparation issue - the coating is separating from the concrete</li>
           <li><strong>Micro-cracking in the coating:</strong> Can occur if the floor was installed over a slab with significant movement</li>
           <li><strong>Yellowing:</strong> Usually means the topcoat wasn't UV-stable</li>
         </ul>

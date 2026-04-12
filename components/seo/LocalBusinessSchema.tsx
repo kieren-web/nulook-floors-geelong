@@ -1,4 +1,4 @@
-import { siteConfig } from "@/data/siteConfig";
+﻿import { siteConfig } from "@/data/siteConfig";
 
 export function LocalBusinessSchema() {
   const schema = {
@@ -63,7 +63,7 @@ export function LocalBusinessSchema() {
         },
       ],
     },
-    award: "Best Garage — The Block (Channel 9)",
+    award: "Best Garage - The Block (Channel 9)",
     slogan: "Geelong's Premium Epoxy Flooring Specialists",
     priceRange: "$$",
     sameAs: (

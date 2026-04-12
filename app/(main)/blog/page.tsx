@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTABanner } from "@/components/ui/CTABanner";
@@ -8,7 +8,7 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 export const metadata: Metadata = buildMetadata({
   title: "Epoxy Flooring Blog | Geelong Tips & Guides | NuLook Floors",
   description:
-    "Epoxy flooring guides, pricing information, and tips for Geelong homeowners and businesses. Written by NuLook Floors Geelong — local epoxy specialists.",
+    "Epoxy flooring guides, pricing information, and tips for Geelong homeowners and businesses. Written by NuLook Floors Geelong - local epoxy specialists.",
   path: "/blog",
 });
 
@@ -26,7 +26,7 @@ const posts = [
     slug: "epoxy-vs-tiles-garage-floor",
     title: "Epoxy vs Garage Floor Tiles: Which is Better for Geelong Garages?",
     excerpt:
-      "An honest side-by-side comparison of professional epoxy flooring vs interlocking garage tiles — cost, durability, maintenance, and long-term value.",
+      "An honest side-by-side comparison of professional epoxy flooring vs interlocking garage tiles - cost, durability, maintenance, and long-term value.",
     label: "Buyer's Guide",
     date: "April 2025",
     readTime: "6 min read",
@@ -55,7 +55,7 @@ export default function BlogPage() {
           <SectionHeading
             label="GEELONG EPOXY GUIDES"
             heading="Epoxy Flooring Tips &amp; Guides"
-            subtext="Practical information for Geelong homeowners and businesses — written by the people who install these floors every day."
+            subtext="Practical information for Geelong homeowners and businesses - written by the people who install these floors every day."
           />
         </div>
       </section>
@@ -102,7 +102,7 @@ export default function BlogPage() {
 
       <CTABanner
         heading="Have a Question Not Covered Here?"
-        subtext="Call Michael & Gabe directly — we're happy to answer any questions about your specific floor or project."
+        subtext="Call Michael & Gabe directly - we're happy to answer any questions about your specific floor or project."
         primaryCta={{ label: "Get a Free Quote", href: "/contact" }}
         secondaryCta={{ label: "Call 0466 385 069", href: "tel:+61466385069" }}
       />

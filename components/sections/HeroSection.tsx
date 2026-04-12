@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { SectionLabel } from "@/components/ui/SectionLabel";
 import { Shield, Award, Clock } from "lucide-react";
@@ -8,7 +8,7 @@ import { trackLeadEvent } from "@/lib/analytics";
 
 const trustBadges = [
   { icon: Shield, text: "5-Year Residential Warranty" },
-  { icon: Award, text: "Best Garage — The Block" },
+  { icon: Award, text: "Best Garage - The Block" },
   { icon: Clock, text: "On Time, Every Time" },
 ];
 
@@ -117,7 +117,7 @@ export function HeroSection() {
             <span className="text-white">in Geelong</span>
           </h1>
           <p className="mt-6 text-muted text-lg leading-relaxed max-w-lg">
-            Residential garages, commercial floors, and workshop spaces &mdash;
+            Residential garages, commercial floors, and workshop spaces -
             installed by Michael &amp; Gabe with 25+ years of NuLook expertise
             behind every job.
           </p>
@@ -136,7 +136,7 @@ export function HeroSection() {
           </div>
         </div>
 
-        {/* Right column — multi-step form */}
+        {/* Right column - multi-step form */}
         <div className="bg-[#1a1a1a]/90 backdrop-blur-sm border border-border rounded-xl p-6 md:p-8 shadow-2xl">
           {submitted ? (
             <div className="text-center py-8">
@@ -172,7 +172,7 @@ export function HeroSection() {
                 </div>
               )}
 
-              {/* Step 1 — Floor type */}
+              {/* Step 1 - Floor type */}
               {step === 1 && (
                 <div>
                   <p className="text-white font-medium mb-4">What type of floor are you looking to coat?</p>
@@ -192,7 +192,7 @@ export function HeroSection() {
                 </div>
               )}
 
-              {/* Step 2 — Suburb */}
+              {/* Step 2 - Suburb */}
               {step === 2 && (
                 <div>
                   <p className="text-white font-medium mb-4">What suburb is the property in?</p>
@@ -219,10 +219,10 @@ export function HeroSection() {
                 </div>
               )}
 
-              {/* Step 3 — Contact details */}
+              {/* Step 3 - Contact details */}
               {step === 3 && (
                 <div>
-                  <p className="text-white font-medium mb-4">Almost done — how do we reach you?</p>
+                  <p className="text-white font-medium mb-4">Almost done - how do we reach you?</p>
                   <div className="space-y-3">
                     <div>
                       <input

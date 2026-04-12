@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { ServiceCard } from "@/components/sections/ServiceCard";
@@ -18,12 +18,12 @@ const whyCards = [
   {
     Icon: Layers,
     title: "Proven 25-Year System",
-    text: "Every NuLook floor uses a multi-coat system refined over two decades — primer, epoxy, flake, and UV-stable topcoat.",
+    text: "Every NuLook floor uses a multi-coat system refined over two decades - primer, epoxy, flake, and UV-stable topcoat.",
   },
   {
     Icon: Award,
     title: "Premium Materials",
-    text: "We use only commercial-grade NuLook epoxy products — no off-the-shelf hardware store kits. Professional results, every time.",
+    text: "We use only commercial-grade NuLook epoxy products - no off-the-shelf hardware store kits. Professional results, every time.",
   },
   {
     Icon: Shield,

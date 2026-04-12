@@ -1,4 +1,4 @@
-import { CheckCircle, Phone } from "lucide-react";
+﻿import { CheckCircle, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -20,7 +20,7 @@ const includes = [
   "13 NuLook colour options with flake blends",
   "Anti-slip UV-stable topcoat",
   "5-year warranty on every installation",
-  "Fixed written quote — no surprises",
+  "Fixed written quote - no surprises",
   "Completed in 1–2 days, drive-on in 72 hours",
 ];
 
@@ -85,7 +85,7 @@ export function SuburbPage({ suburb, slug, description, nearbySuburbs = [] }: Su
         <SectionHeading
           label="WHAT YOU GET"
           heading={`Our ${suburb} Epoxy Flooring Service`}
-          subtext={`Every NuLook Floors installation in ${suburb} follows our proven 5-layer system — the same system that won Best Garage on The Block.`}
+          subtext={`Every NuLook Floors installation in ${suburb} follows our proven 5-layer system - the same system that won Best Garage on The Block.`}
         />
         <ul className="mt-8 space-y-3">
           {includes.map((item) => (
@@ -135,7 +135,7 @@ export function SuburbPage({ suburb, slug, description, nearbySuburbs = [] }: Su
       <section className="py-20 px-4 max-w-3xl mx-auto">
         <SectionHeading
           label="FAQ"
-          heading={`Epoxy Flooring Questions — ${suburb}`}
+          heading={`Epoxy Flooring Questions - ${suburb}`}
           align="center"
         />
         <div className="mt-12">
@@ -145,7 +145,7 @@ export function SuburbPage({ suburb, slug, description, nearbySuburbs = [] }: Su
 
       <CTABanner
         heading={`Get a Free Epoxy Quote in ${suburb}`}
-        subtext="Michael & Gabe will visit your property, assess the floor, and provide a fixed written quote — completely free."
+        subtext="Michael & Gabe will visit your property, assess the floor, and provide a fixed written quote - completely free."
         primaryCta={{ label: "Get a Free Quote", href: "/contact" }}
         secondaryCta={{ label: "Call Now", href: siteConfig.phoneTel }}
       />

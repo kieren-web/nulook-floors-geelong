@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TestimonialCard } from "@/components/ui/TestimonialCard";
@@ -61,7 +61,7 @@ const industryApplications = [
   {
     Icon: Factory,
     title: "Industrial Plants",
-    text: "Maximum durability for the toughest environments — chemical, impact, and abrasion resistant.",
+    text: "Maximum durability for the toughest environments - chemical, impact, and abrasion resistant.",
   },
 ];
 

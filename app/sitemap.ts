@@ -1,4 +1,4 @@
-import { MetadataRoute } from "next";
+﻿import { MetadataRoute } from "next";
 import { siteConfig } from "@/data/siteConfig";
 
 const BASE = siteConfig.siteUrl;
@@ -32,6 +32,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/blog/how-much-does-epoxy-flooring-cost-geelong`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/blog/epoxy-vs-tiles-garage-floor`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/blog/how-long-does-epoxy-flooring-last`, changeFrequency: "monthly", priority: 0.7 },
-    // Landing page intentionally excluded — paid traffic noindex
+    // Landing page intentionally excluded - paid traffic noindex
   ];
 }

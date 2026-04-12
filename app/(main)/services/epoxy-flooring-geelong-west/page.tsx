@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { SuburbPage } from "@/components/sections/SuburbPage";
 
@@ -14,7 +14,7 @@ export default function Page() {
     <SuburbPage
       suburb="Geelong West"
       slug="geelong-west"
-      description="NuLook Floors Geelong services Geelong West and surrounding suburbs for premium residential garage and commercial epoxy flooring. Local installers with a 5-year warranty and a fixed written quote on every job — no surprises."
+      description="NuLook Floors Geelong services Geelong West and surrounding suburbs for premium residential garage and commercial epoxy flooring. Local installers with a 5-year warranty and a fixed written quote on every job - no surprises."
       nearbySuburbs={["Hamlyn Heights", "Herne Hill", "Manifold Heights", "Norlane", "North Geelong"]}
     />
   );

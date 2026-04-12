@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { CheckCircle } from "lucide-react";
@@ -156,7 +156,7 @@ export function MultiStepSurvey() {
     <div>
       {progressBar}
 
-      {/* Step 1 — Floor type */}
+      {/* Step 1 - Floor type */}
       {step === 1 && (
         <div>
           <p className="text-white font-medium mb-4">What type of floor are you looking to coat?</p>
@@ -180,7 +180,7 @@ export function MultiStepSurvey() {
         </div>
       )}
 
-      {/* Step 2 — Size */}
+      {/* Step 2 - Size */}
       {step === 2 && (
         <div>
           <p className="text-white font-medium mb-4">Approximately how large is the area?</p>
@@ -204,7 +204,7 @@ export function MultiStepSurvey() {
         </div>
       )}
 
-      {/* Step 3 — Timeline */}
+      {/* Step 3 - Timeline */}
       {step === 3 && (
         <div>
           <p className="text-white font-medium mb-4">When are you looking to get this done?</p>
@@ -228,10 +228,10 @@ export function MultiStepSurvey() {
         </div>
       )}
 
-      {/* Step 4 — Contact */}
+      {/* Step 4 - Contact */}
       {step === 4 && (
         <div>
-          <p className="text-white font-medium mb-4">Almost done — how do we reach you?</p>
+          <p className="text-white font-medium mb-4">Almost done - how do we reach you?</p>
           <div className="space-y-3">
             <div>
               <input

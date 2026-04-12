@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { MapPlaceholder } from "@/components/sections/MapPlaceholder";
@@ -41,7 +41,7 @@ export default function ContactPage() {
       {/* Two-column layout */}
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Left — contact info */}
+          {/* Left - contact info */}
           <div className="space-y-6">
             {/* Phone card */}
             <a
@@ -119,7 +119,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Right — form */}
+          {/* Right - form */}
           <div>
             <ContactForm />
           </div>

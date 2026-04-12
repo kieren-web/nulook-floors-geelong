@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -27,7 +27,7 @@ const galleryImages: GalleryImage[] = [
     id: "1",
     src: "/images/gallery/garage-classic-cars.jpg",
     alt: "Classic car garage with dark grey flake epoxy",
-    caption: "Residential Garage — Geelong",
+    caption: "Residential Garage - Geelong",
     category: "garage",
   },
   {
@@ -41,7 +41,7 @@ const galleryImages: GalleryImage[] = [
     id: "3",
     src: "/images/gallery/outdoor-alfresco-outside.jpg",
     alt: "Outdoor alfresco with white flake epoxy and scenic view",
-    caption: "Outdoor Alfresco — Residential",
+    caption: "Outdoor Alfresco - Residential",
     category: "patio",
   },
   {
@@ -55,7 +55,7 @@ const galleryImages: GalleryImage[] = [
     id: "5",
     src: "/images/gallery/residential-carport.jpg",
     alt: "Residential carport with light grey flake epoxy",
-    caption: "Residential Carport — Newtown",
+    caption: "Residential Carport - Newtown",
     category: "garage",
   },
   {
@@ -69,14 +69,14 @@ const galleryImages: GalleryImage[] = [
     id: "7",
     src: "/images/gallery/outdoor-alfresco-inside.jpg",
     alt: "Alfresco viewed from inside with white epoxy floor",
-    caption: "Alfresco — Outdoor Living",
+    caption: "Alfresco - Outdoor Living",
     category: "patio",
   },
   {
     id: "8",
     src: "/images/gallery/residential-stairs.jpg",
     alt: "Residential staircase landing with grey flake epoxy",
-    caption: "Residential Interior — Stairs",
+    caption: "Residential Interior - Stairs",
     category: "garage",
   },
   {
@@ -105,7 +105,7 @@ export function GalleryGrid({ preview = false }: GalleryGridProps) {
 
   return (
     <div>
-      {/* Filter buttons — hide in preview mode */}
+      {/* Filter buttons - hide in preview mode */}
       {!preview && (
         <div className="flex flex-wrap gap-2 mb-8">
           {categories.map((cat) => (
