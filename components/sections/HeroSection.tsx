@@ -51,9 +51,13 @@ export function HeroSection() {
 
   async function submitContact() {
     const errs: Record<string, string> = {};
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const auPhoneRegex = /^(\+?61|0)[2-478](\s?\d){8}$/;
     if (!name.trim()) errs.name = "Please enter your full name";
     if (!phone.trim()) errs.phone = "Please enter your phone number";
+    else if (!auPhoneRegex.test(phone.trim())) errs.phone = "Please enter a valid Australian phone number";
     if (!email.trim()) errs.email = "Please enter your email address";
+    else if (!emailRegex.test(email.trim())) errs.email = "Please enter a valid email address (e.g. name@example.com)";
     if (Object.keys(errs).length) { setErrors(errs); return; }
     setErrors({});
     setSubmitError("");

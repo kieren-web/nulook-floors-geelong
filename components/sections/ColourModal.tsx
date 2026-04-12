@@ -2,6 +2,7 @@
 
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import Image from "next/image";
 import type { Colour } from "@/types";
 
 interface ColourModalProps {
@@ -31,11 +32,15 @@ export function ColourModal({ colour, onClose }: ColourModalProps) {
         </button>
 
         <div className="flex flex-col sm:flex-row gap-6">
-          {/* Large swatch */}
-          <div
-            className="w-full sm:w-40 h-40 rounded-lg shrink-0"
-            style={{ backgroundColor: colour.hex }}
-          />
+          {/* Large swatch — actual texture photo */}
+          <div className="relative w-full sm:w-44 h-44 rounded-lg shrink-0 overflow-hidden">
+            <Image
+              src={colour.imagePath}
+              alt={colour.name}
+              fill
+              className="object-cover"
+            />
+          </div>
 
           {/* Details */}
           <div className="flex-1">

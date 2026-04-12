@@ -15,7 +15,7 @@ const defaultStats: Stat[] = [
 
 export function StatsGrid({ stats = defaultStats, className }: StatsGridProps) {
   return (
-    <section className={cn("relative overflow-hidden bg-[#0a0a0a] py-16 px-4", className)}>
+    <section className={cn("relative overflow-hidden bg-[#0a0a0a] py-10 px-4", className)}>
       {/* Orange radial glow from bottom centre */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_120%,rgba(232,100,12,0.18)_0%,transparent_70%)] pointer-events-none" />
       {/* Top divider line */}
@@ -26,11 +26,11 @@ export function StatsGrid({ stats = defaultStats, className }: StatsGridProps) {
       <div className="relative z-10 max-w-5xl mx-auto">
         <div className="grid grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-border/50">
           {stats.map((stat) => (
-            <div key={stat.label} className="flex flex-col items-center justify-center py-8 px-6 text-center">
-              <p className="text-5xl md:text-6xl font-bold text-orange leading-none tracking-tight">
+            <div key={stat.label} className="flex flex-col items-center justify-center py-5 px-4 text-center">
+              <p className="text-3xl md:text-4xl font-bold text-orange leading-none tracking-tight">
                 {stat.value}
               </p>
-              <p className="mt-3 text-muted text-xs uppercase tracking-widest font-medium max-w-[120px]">
+              <p className="mt-2 text-muted text-xs uppercase tracking-widest font-medium max-w-[120px]">
                 {stat.label}
               </p>
             </div>
