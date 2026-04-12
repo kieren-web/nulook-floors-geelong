@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { StatsGrid } from "@/components/ui/StatsGrid";
@@ -33,87 +34,125 @@ export default function HomePage() {
     <>
       <LocalBusinessSchema />
       <FAQSchema faqs={homeFaqs} />
+
+      {/* ── Hero ─────────────────────────────────────────────────── */}
       <HeroSection />
 
-      {/* Stats */}
+      {/* ── Stats — very dark with orange glow ───────────────────── */}
       <ScrollReveal>
         <StatsGrid />
       </ScrollReveal>
 
-      {/* Services */}
-      <section className="py-20 px-4 max-w-7xl mx-auto">
-        <ScrollReveal>
-          <SectionHeading
-            label="WHAT WE DO"
-            heading="Epoxy Flooring Services in Geelong"
-            subtext="From residential garages to large-scale commercial facilities — NuLook Floors Geelong delivers premium results backed by the NuLook network."
-          />
-        </ScrollReveal>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {services.map((service, i) => (
-            <ScrollReveal key={service.id} delay={i * 120} direction="up">
-              <ServiceCard service={service} />
-            </ScrollReveal>
-          ))}
+      {/* ── Services — base background ───────────────────────────── */}
+      <section className="py-20 px-4 bg-background">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <SectionHeading
+              label="WHAT WE DO"
+              heading="Epoxy Flooring Services in Geelong"
+              subtext="From residential garages to large-scale commercial facilities — NuLook Floors Geelong delivers premium results backed by the NuLook network."
+            />
+          </ScrollReveal>
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+            {services.map((service, i) => (
+              <ScrollReveal key={service.id} delay={i * 120} direction="up">
+                <ServiceCard service={service} />
+              </ScrollReveal>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Process */}
+      {/* ── Photo break ──────────────────────────────────────────── */}
+      <ScrollReveal threshold={0.1}>
+        <section className="relative h-72 md:h-96 overflow-hidden">
+          <Image
+            src="/images/gallery/residential-puppy.jpg"
+            alt="Premium epoxy floor installation by NuLook Floors Geelong"
+            fill
+            className="object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/40" />
+          {/* Orange glow from left */}
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_100%_at_0%_50%,rgba(232,100,12,0.15)_0%,transparent_60%)]" />
+          <div className="absolute inset-0 flex items-center px-6 md:px-16">
+            <div className="max-w-2xl">
+              <p className="text-orange text-xs font-semibold tracking-widest uppercase mb-3">
+                Proven Results
+              </p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
+                Built to last<br className="hidden md:block" /> 15–20 years.
+              </h2>
+              <p className="mt-4 text-muted text-lg">
+                Diamond-ground prep. Premium NuLook system. Fixed written quote.
+              </p>
+            </div>
+          </div>
+        </section>
+      </ScrollReveal>
+
+      {/* ── Process — dark section with orange connector ──────────── */}
       <ScrollReveal threshold={0.05}>
         <ProcessSteps />
       </ScrollReveal>
 
-      {/* Testimonials */}
-      <section className="py-20 px-4 max-w-7xl mx-auto">
-        <ScrollReveal>
-          <SectionHeading
-            label="WHAT CUSTOMERS SAY"
-            heading="Trusted by Geelong Homeowners & Businesses"
-          />
-        </ScrollReveal>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
-          {testimonials.slice(0, 3).map((t, i) => (
-            <ScrollReveal key={t.id} delay={i * 120} direction="up">
-              <TestimonialCard testimonial={t} />
-            </ScrollReveal>
-          ))}
+      {/* ── Testimonials — slightly lighter dark ─────────────────── */}
+      <section className="py-20 px-4 bg-[#111]">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <SectionHeading
+              label="WHAT CUSTOMERS SAY"
+              heading="Trusted by Geelong Homeowners & Businesses"
+            />
+          </ScrollReveal>
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+            {testimonials.slice(0, 3).map((t, i) => (
+              <ScrollReveal key={t.id} delay={i * 120} direction="up">
+                <TestimonialCard testimonial={t} />
+              </ScrollReveal>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Colours preview */}
-      <section className="py-20 px-4 max-w-7xl mx-auto">
-        <ScrollReveal>
-          <SectionHeading
-            label="COLOUR OPTIONS"
-            heading="13 Premium Epoxy Colours"
-            subtext="Choose from our full range of NuLook colour options and flake blends. Samples available on request."
-          />
-        </ScrollReveal>
-        <ScrollReveal delay={150} threshold={0.05}>
-          <div className="mt-12">
-            <ColourGrid colours={colours.slice(0, 6)} totalCount={colours.length} preview={true} />
-          </div>
-        </ScrollReveal>
+      {/* ── Colours — base background ────────────────────────────── */}
+      <section className="py-20 px-4 bg-background">
+        <div className="max-w-7xl mx-auto">
+          <ScrollReveal>
+            <SectionHeading
+              label="COLOUR OPTIONS"
+              heading="13 Premium Epoxy Colours"
+              subtext="Choose from our full range of NuLook colour options and flake blends. Samples available on request."
+            />
+          </ScrollReveal>
+          <ScrollReveal delay={150} threshold={0.05}>
+            <div className="mt-12">
+              <ColourGrid colours={colours.slice(0, 6)} totalCount={colours.length} preview={true} />
+            </div>
+          </ScrollReveal>
+        </div>
       </section>
 
-      {/* FAQ */}
-      <section className="py-20 px-4 max-w-3xl mx-auto">
-        <ScrollReveal>
-          <SectionHeading
-            label="FAQ"
-            heading="Common Questions About Epoxy Flooring"
-            align="center"
-          />
-        </ScrollReveal>
-        <ScrollReveal delay={100}>
-          <div className="mt-12">
-            <FAQAccordion faqs={homeFaqs} />
-          </div>
-        </ScrollReveal>
+      {/* ── FAQ — dark section ───────────────────────────────────── */}
+      <section className="py-20 px-4 bg-[#0f0f0f]">
+        <div className="max-w-3xl mx-auto">
+          <ScrollReveal>
+            <SectionHeading
+              label="FAQ"
+              heading="Common Questions About Epoxy Flooring"
+              align="center"
+            />
+          </ScrollReveal>
+          <ScrollReveal delay={100}>
+            <div className="mt-12">
+              <FAQAccordion faqs={homeFaqs} />
+            </div>
+          </ScrollReveal>
+        </div>
       </section>
 
-      {/* Service areas */}
-      <section className="py-16 px-4 border-t border-border">
+      {/* ── Service areas ────────────────────────────────────────── */}
+      <section className="py-16 px-4 bg-[#111] border-t border-border">
         <div className="max-w-6xl mx-auto">
           <ScrollReveal>
             <SectionHeading
@@ -139,12 +178,14 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── CTA — photo background ───────────────────────────────── */}
       <ScrollReveal threshold={0.05}>
         <CTABanner
           heading="Ready to Transform Your Floor?"
           subtext="Get a free, no-obligation quote from Geelong's epoxy flooring specialists. We'll visit your property and provide a fixed written quote."
           primaryCta={{ label: "Get a Free Quote", href: "/contact" }}
           secondaryCta={{ label: "View Our Work", href: "/gallery" }}
+          imageSrc="/images/gallery/commercial-warehouse.jpg"
         />
       </ScrollReveal>
     </>

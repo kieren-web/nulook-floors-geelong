@@ -111,10 +111,10 @@ export function HeroSection() {
         {/* Left column */}
         <div>
           <SectionLabel>Geelong&apos;s Epoxy Specialists</SectionLabel>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-            Premium Epoxy Flooring
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+            <span className="text-chrome">Premium Epoxy Flooring</span>
             <br />
-            in Geelong
+            <span className="text-white">in Geelong</span>
           </h1>
           <p className="mt-6 text-muted text-lg leading-relaxed max-w-lg">
             Residential garages, commercial floors, and workshop spaces &mdash;
