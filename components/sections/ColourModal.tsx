@@ -17,46 +17,38 @@ export function ColourModal({ colour, onClose }: ColourModalProps) {
     <div className="fixed inset-0 z-[70] flex items-center justify-center p-4">
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+        className="absolute inset-0 bg-black/75 backdrop-blur-sm"
         onClick={onClose}
       />
       {/* Modal */}
-      <div className="relative bg-surface border border-border rounded-xl max-w-lg w-full p-6 md:p-8">
+      <div className="relative bg-surface border border-border rounded-xl max-w-xl w-full overflow-hidden">
+        {/* Close button */}
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-4 right-4 text-muted hover:text-white"
+          className="absolute top-3 right-3 z-10 bg-black/50 rounded-full p-1.5 text-white hover:bg-black/80 transition-colors"
           aria-label="Close"
         >
-          <X className="w-5 h-5" />
+          <X className="w-4 h-4" />
         </button>
 
-        <div className="flex flex-col sm:flex-row gap-6">
-          {/* Large swatch — actual texture photo */}
-          <div className="relative w-full sm:w-44 h-44 rounded-lg shrink-0 overflow-hidden">
-            <Image
-              src={colour.imagePath}
-              alt={colour.name}
-              fill
-              className="object-cover"
-            />
-          </div>
+        {/* Full-width image */}
+        <div className="relative w-full aspect-square">
+          <Image
+            src={colour.imagePath}
+            alt={colour.name}
+            fill
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, 576px"
+          />
+        </div>
 
-          {/* Details */}
-          <div className="flex-1">
-            <h3 className="text-2xl font-bold text-white">{colour.name}</h3>
-            <span className="inline-block mt-1 text-xs bg-border text-muted px-3 py-1 rounded-full capitalize">
-              {colour.category}
-            </span>
-            <p className="mt-3 text-muted text-sm leading-relaxed">
-              {colour.description}
-            </p>
-            <div className="mt-4">
-              <Button href="/contact" size="sm">
-                Get a Quote in This Colour
-              </Button>
-            </div>
-          </div>
+        {/* Footer strip */}
+        <div className="flex items-center justify-between px-5 py-4">
+          <p className="text-white font-semibold">{colour.name}</p>
+          <Button href="/contact" size="sm">
+            Get a Quote in This Colour
+          </Button>
         </div>
       </div>
     </div>
