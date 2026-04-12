@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { buildMetadata } from "@/lib/seo/generateMetadata";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { StatsGrid } from "@/components/ui/StatsGrid";
@@ -63,29 +62,33 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Photo break ──────────────────────────────────────────── */}
+      {/* ── Proof strip ──────────────────────────────────────────── */}
       <ScrollReveal threshold={0.1}>
-        <section className="relative h-72 md:h-96 overflow-hidden">
-          <Image
-            src="/images/gallery/residential-puppy.jpg"
-            alt="Premium epoxy floor installation by NuLook Floors Geelong"
-            fill
-            className="object-cover object-center"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/40" />
-          {/* Orange glow from left */}
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_100%_at_0%_50%,rgba(232,100,12,0.15)_0%,transparent_60%)]" />
-          <div className="absolute inset-0 flex items-center px-6 md:px-16">
-            <div className="max-w-2xl">
-              <p className="text-orange text-xs font-semibold tracking-widest uppercase mb-3">
-                Proven Results
-              </p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-                Built to last<br className="hidden md:block" /> 15–20 years.
-              </h2>
-              <p className="mt-4 text-muted text-lg">
-                Diamond-ground prep. Premium NuLook system. Fixed written quote.
-              </p>
+        <section className="relative py-16 px-4 bg-[#111] overflow-hidden">
+          {/* Subtle orange glow centre */}
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_100%_at_50%_100%,rgba(232,100,12,0.10)_0%,transparent_65%)] pointer-events-none" />
+          {/* Top divider line */}
+          <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-orange/30 to-transparent" />
+          {/* Bottom divider line */}
+          <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-orange/30 to-transparent" />
+
+          <div className="relative z-10 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 md:divide-x md:divide-border/50">
+              <div className="text-center md:px-8">
+                <p className="text-orange text-xs font-semibold tracking-widest uppercase mb-2">Surface Prep</p>
+                <p className="text-white font-semibold text-lg">Diamond-Ground Every Time</p>
+                <p className="text-muted text-sm mt-1 leading-relaxed">No shortcuts — full diamond grind for a permanent bond.</p>
+              </div>
+              <div className="text-center md:px-8">
+                <p className="text-orange text-xs font-semibold tracking-widest uppercase mb-2">The System</p>
+                <p className="text-white font-semibold text-lg">Premium NuLook Product</p>
+                <p className="text-muted text-sm mt-1 leading-relaxed">The same proven system behind 26,000+ installs nationally.</p>
+              </div>
+              <div className="text-center md:px-8">
+                <p className="text-orange text-xs font-semibold tracking-widest uppercase mb-2">Your Quote</p>
+                <p className="text-white font-semibold text-lg">Fixed Written Price</p>
+                <p className="text-muted text-sm mt-1 leading-relaxed">The quote never changes — even if we underquote.</p>
+              </div>
             </div>
           </div>
         </section>
