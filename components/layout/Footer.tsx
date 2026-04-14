@@ -129,7 +129,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {siteConfig.businessName}. All
             rights reserved.
           </p>
-          <p>ABN: XX XXX XXX XXX</p>
+          <p>ABN: 65 972 602 676</p>
           <p>
             {siteConfig.businessName} is an independently owned franchise of{" "}
             {siteConfig.franchiseNetwork}.
