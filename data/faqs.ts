@@ -27,7 +27,7 @@ export const faqs: FAQ[] = [
     id: "how-long-to-install",
     question: "How long does installation take?",
     answer:
-      "Most residential garage floors are completed in 1–2 days. The floor requires 24 hours of cure time before light foot traffic and 72 hours before vehicle use. We'll give you a precise timeline during your free quote so you can plan around it.",
+      "Most residential garage floors take 3+ days to complete. The floor requires 24 hours of cure time before light foot traffic and 72 hours before vehicle use. We'll give you a precise timeline during your free quote so you can plan around it.",
     page: "home",
   },
   {

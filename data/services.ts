@@ -17,7 +17,7 @@ export const services: Service[] = [
       { text: "Anti-slip topcoat included as standard" },
       { text: "5-year warranty, backed by the NuLook network" },
       { text: "UV-stable - won't yellow over time" },
-      { text: "Completed in 1–2 days, drive-on in 72 hours" },
+      { text: "Completed in 3+ days, drive-on in 72 hours" },
     ],
     metaTitle: "Garage Epoxy Flooring Geelong | NuLook Floors",
     metaDescription:

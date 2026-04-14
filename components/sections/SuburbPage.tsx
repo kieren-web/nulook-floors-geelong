@@ -21,7 +21,7 @@ const includes = [
   "Anti-slip UV-stable topcoat",
   "5-year warranty on every installation",
   "Fixed written quote - no surprises",
-  "Completed in 1–2 days, drive-on in 72 hours",
+  "Completed in 3+ days, drive-on in 72 hours",
 ];
 
 const suburbFaqs = faqs.filter((f) => f.page === "home").slice(0, 4);

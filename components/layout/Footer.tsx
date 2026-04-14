@@ -134,6 +134,17 @@ export function Footer() {
             {siteConfig.businessName} is an independently owned franchise of{" "}
             {siteConfig.franchiseNetwork}.
           </p>
+          <p>
+            Built by{" "}
+            <a
+              href="https://axiondigital.com.au"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              Axion Digital
+            </a>
+          </p>
         </div>
       </div>
     </footer>

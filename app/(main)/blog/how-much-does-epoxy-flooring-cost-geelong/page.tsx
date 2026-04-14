@@ -223,7 +223,7 @@ export default function CostGuidePage() {
 
         <h3>How long does installation take?</h3>
         <p>
-          Most residential garage floors take 2–3 days to complete. Commercial jobs vary based on the size and specification of the project - your installer will give you a timeline at the quote stage.
+          Most residential garage floors take 3+ days to complete. Commercial jobs vary based on the size and specification of the project - your installer will give you a timeline at the quote stage.
           You can walk on the floor within 24 hours and drive on it within 72 hours.
         </p>
 

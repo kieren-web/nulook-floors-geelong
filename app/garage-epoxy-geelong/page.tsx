@@ -67,7 +67,7 @@ export default function LandingPage() {
           <SectionHeading
             label="THE PROCESS"
             heading="What Happens After You Submit"
-            subtext="Simple, professional, and done in as little as one day."
+            subtext="Simple, professional, and built to last."
             align="center"
           />
         </ScrollReveal>

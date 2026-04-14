@@ -107,7 +107,7 @@ export default function EpoxyVsTilesPage() {
             </tr>
             <tr>
               <td><strong>Installation</strong></td>
-              <td>Professional (2–3 days)</td>
+              <td>Professional (3+ days)</td>
               <td>DIY possible</td>
             </tr>
             <tr>
